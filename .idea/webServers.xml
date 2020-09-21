@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="952a2d7e-9a6b-4b6c-b024-2f033626be07" name="matrona">
+        <fileTransfer rootFolder="/home/m/matrona" accessType="SFTP" host="92.53.114.126" port="22" sshConfigId="a0b4df62-71ce-425f-9b8c-b8715184f4b9" sshConfig="matrona@92.53.114.126:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
