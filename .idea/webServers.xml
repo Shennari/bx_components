@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="3342d454-f1ad-42d4-b68f-0a8530996293" name="840dev">
+        <fileTransfer rootFolder="/home/hdd/840dev" accessType="SFTP" host="840dev.dev-bitrix.by" port="22" sshConfigId="ffbdc35a-b124-4d82-ad24-ec1907feae10" sshConfig="S840dev@840dev.dev-bitrix.by:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
