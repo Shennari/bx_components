@@ -1,0 +1,35 @@
+<?php
+$MESS['CSR_ERROR_NO_PHONE'] = "No phone provided!";
+
+$MESS['PROVIDER_RESPONSE_-1'] = "Message not found.";
+$MESS['PROVIDER_RESPONSE_100'] = "The message is in our queue";
+$MESS['PROVIDER_RESPONSE_101'] = "The message is sent to the operator";
+$MESS['PROVIDER_RESPONSE_102'] = "Message sent (in transit)";
+$MESS['PROVIDER_RESPONSE_103'] = "Message delivered";
+$MESS['PROVIDER_RESPONSE_104'] = "Не может быть доставлено: время жизни истекло";
+$MESS['PROVIDER_RESPONSE_105'] = "Cannot be delivered: lifetime has expired";
+$MESS['PROVIDER_RESPONSE_106'] = "Unable to deliver: phone failure";
+$MESS['PROVIDER_RESPONSE_107'] = "Failed to deliver: unknown reason";
+$MESS['PROVIDER_RESPONSE_108'] = "Failed to deliver: rejected";
+$MESS['PROVIDER_RESPONSE_130'] = "Unable to deliver: exceeded the number of messages per day to this number";
+$MESS['PROVIDER_RESPONSE_131'] = "Unable to deliver: exceeded the number of identical messages for this number per minute";
+$MESS['PROVIDER_RESPONSE_132'] = "Unable to deliver: exceeded the number of identical messages to this number per day";
+$MESS['PROVIDER_RESPONSE_200'] = "Invalid api_id";
+$MESS['PROVIDER_RESPONSE_201'] = "There are not enough funds on your personal account.";
+$MESS['PROVIDER_RESPONSE_202'] = "Invalid recipient specified.";
+$MESS['PROVIDER_RESPONSE_203'] = "There is no message text.";
+$MESS['PROVIDER_RESPONSE_204'] = "The sender's name has not been agreed with the administration.";
+$MESS['PROVIDER_RESPONSE_205'] = "The message is too long (more than 8 SMS).";
+$MESS['PROVIDER_RESPONSE_206'] = "The daily limit for sending messages will be exceeded or already exceeded.";
+$MESS['PROVIDER_RESPONSE_207'] = "You cannot send messages to this number (or one of the numbers), or there are more than 100 numbers in the recipient list.";
+$MESS['PROVIDER_RESPONSE_208'] = "The time parameter was specified incorrectly.";
+$MESS['PROVIDER_RESPONSE_209'] = "You have added this number (or one of the numbers) to the stop list.";
+$MESS['PROVIDER_RESPONSE_210'] = "GET is used, where POST must be used";
+$MESS['PROVIDER_RESPONSE_211'] = "Method not found";
+$MESS['PROVIDER_RESPONSE_220'] = "The service is temporarily unavailable, please try again later.";
+$MESS['PROVIDER_RESPONSE_230'] = "The total number of messages for this number per day has been exceeded.";
+$MESS['PROVIDER_RESPONSE_231'] = "The limit of the same messages per minute has been exceeded.";
+$MESS['PROVIDER_RESPONSE_232'] = "The limit of duplicate messages for this number per day has been exceeded.";
+$MESS['PROVIDER_RESPONSE_300'] = "Invalid token (maybe expired or your IP changed)";
+$MESS['PROVIDER_RESPONSE_301'] = "Invalid password or user not found";
+$MESS['PROVIDER_RESPONSE_302'] = "The user is authorized, but the account is not verified (the user did not enter the code sent in the registration SMS)";
